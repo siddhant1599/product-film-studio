@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Manrope;
+    src: url(assets/manrope-latin.woff2) format("woff2");
+    font-style: normal;
+    font-weight: 200 800;
+    font-display: swap;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: #161c28; }
+#root { position: relative; overflow: hidden; container-type: inline-size; background: #161c28; }
+#plates { position: absolute; inset: 0; width: 100%; height: 100%; }
+#caption {
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2cqw 0 7cqw;
+    color: #fff;
+    background: linear-gradient(90deg, #101622 12%, #101622d9 60%, transparent);
+    font-family: Manrope, system-ui, sans-serif;
+}
+h1 { font-size: 6.4cqw; line-height: 1.04; letter-spacing: -.04em; margin: 0; }
+#subtitle { font-size: 2.4cqw; line-height: 1.25; color: #d8e2f3; margin: 1.5cqw 0 0; }
+#accent { width: 7cqw; height: .4cqw; margin-top: 2cqw; border-radius: 1cqw; background: #f3b57b; transform: scaleX(0); transform-origin: left; }

@@ -1,0 +1,14 @@
+{
+  "width": 960,
+  "height": 540,
+  "fps": 24,
+  "frames": 48,
+  "cycles_samples": 8,
+  "reveal_frame": 22,
+  "title": "Form study",
+  "subtitle": "Two parts. One fit.",
+  "cues": [
+    { "frame": 6, "hz": 100, "seconds": 0.36, "gain": 0.19 },
+    { "frame": 22, "hz": 151, "seconds": 0.44, "gain": 0.58 }
+  ]
+}
